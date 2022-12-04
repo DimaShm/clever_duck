@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/clever_duck/static/css/main.2a169d2c.chunk.css",
-    "main.js": "/clever_duck/static/js/main.dacdc399.chunk.js",
-    "main.js.map": "/clever_duck/static/js/main.dacdc399.chunk.js.map",
+    "main.css": "/clever_duck/static/css/main.08d1e009.chunk.css",
+    "main.js": "/clever_duck/static/js/main.2a093df5.chunk.js",
+    "main.js.map": "/clever_duck/static/js/main.2a093df5.chunk.js.map",
     "runtime-main.js": "/clever_duck/static/js/runtime-main.591ebd85.js",
     "runtime-main.js.map": "/clever_duck/static/js/runtime-main.591ebd85.js.map",
-    "static/js/2.47582bd8.chunk.js": "/clever_duck/static/js/2.47582bd8.chunk.js",
-    "static/js/2.47582bd8.chunk.js.map": "/clever_duck/static/js/2.47582bd8.chunk.js.map",
+    "static/js/2.d9decc73.chunk.js": "/clever_duck/static/js/2.d9decc73.chunk.js",
+    "static/js/2.d9decc73.chunk.js.map": "/clever_duck/static/js/2.d9decc73.chunk.js.map",
     "index.html": "/clever_duck/index.html",
-    "static/css/main.2a169d2c.chunk.css.map": "/clever_duck/static/css/main.2a169d2c.chunk.css.map",
-    "static/js/2.47582bd8.chunk.js.LICENSE.txt": "/clever_duck/static/js/2.47582bd8.chunk.js.LICENSE.txt"
+    "static/css/main.08d1e009.chunk.css.map": "/clever_duck/static/css/main.08d1e009.chunk.css.map",
+    "static/js/2.d9decc73.chunk.js.LICENSE.txt": "/clever_duck/static/js/2.d9decc73.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/clever_duck/static/media/telegram_white.2df3b8e4.svg",
+    "static/media/Footer.scss": "/clever_duck/static/media/footer_bgr.913fc5a5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.591ebd85.js",
-    "static/js/2.47582bd8.chunk.js",
-    "static/css/main.2a169d2c.chunk.css",
-    "static/js/main.dacdc399.chunk.js"
+    "static/js/2.d9decc73.chunk.js",
+    "static/css/main.08d1e009.chunk.css",
+    "static/js/main.2a093df5.chunk.js"
   ]
 }
