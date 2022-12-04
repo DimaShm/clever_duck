@@ -1,0 +1,14 @@
+@import "../../styles/utils/variables.scss";
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  // background: linear-gradient(#12171d, #121c27);
+
+  @media (min-width: $desktop) {
+    flex-direction: row;
+    height: 85px;
+  }
+}

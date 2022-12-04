@@ -1,0 +1,13 @@
+@import "./utils/variables.scss";
+@import "./utils/normalize.scss";
+@import "./blocks/page.scss";
+@import "./blocks/body.scss";
+@import "./blocks/small_text.scss";
+@import "./blocks/logo.scss";
+@import "./blocks/icon.scss";
+@import "./blocks/menu.scss";
+
+@font-face {
+  font-family: Inter;
+  src: url("./fonts/Inter-Regular.ttf");
+}
