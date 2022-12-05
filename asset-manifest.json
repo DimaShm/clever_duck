@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/clever_duck/static/css/main.08d1e009.chunk.css",
-    "main.js": "/clever_duck/static/js/main.2a093df5.chunk.js",
-    "main.js.map": "/clever_duck/static/js/main.2a093df5.chunk.js.map",
+    "main.css": "/clever_duck/static/css/main.52ff09bd.chunk.css",
+    "main.js": "/clever_duck/static/js/main.04cb362a.chunk.js",
+    "main.js.map": "/clever_duck/static/js/main.04cb362a.chunk.js.map",
     "runtime-main.js": "/clever_duck/static/js/runtime-main.591ebd85.js",
     "runtime-main.js.map": "/clever_duck/static/js/runtime-main.591ebd85.js.map",
-    "static/js/2.d9decc73.chunk.js": "/clever_duck/static/js/2.d9decc73.chunk.js",
-    "static/js/2.d9decc73.chunk.js.map": "/clever_duck/static/js/2.d9decc73.chunk.js.map",
+    "static/js/2.4aace825.chunk.js": "/clever_duck/static/js/2.4aace825.chunk.js",
+    "static/js/2.4aace825.chunk.js.map": "/clever_duck/static/js/2.4aace825.chunk.js.map",
     "index.html": "/clever_duck/index.html",
-    "static/css/main.08d1e009.chunk.css.map": "/clever_duck/static/css/main.08d1e009.chunk.css.map",
-    "static/js/2.d9decc73.chunk.js.LICENSE.txt": "/clever_duck/static/js/2.d9decc73.chunk.js.LICENSE.txt",
+    "static/css/main.52ff09bd.chunk.css.map": "/clever_duck/static/css/main.52ff09bd.chunk.css.map",
+    "static/js/2.4aace825.chunk.js.LICENSE.txt": "/clever_duck/static/js/2.4aace825.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/clever_duck/static/media/telegram_white.2df3b8e4.svg",
-    "static/media/Footer.scss": "/clever_duck/static/media/footer_bgr.913fc5a5.svg"
+    "static/media/Footer.scss": "/clever_duck/static/media/footer_bgr.913fc5a5.svg",
+    "static/media/Home.scss": "/clever_duck/static/media/home_mobile.723a0abf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.591ebd85.js",
-    "static/js/2.d9decc73.chunk.js",
-    "static/css/main.08d1e009.chunk.css",
-    "static/js/main.2a093df5.chunk.js"
+    "static/js/2.4aace825.chunk.js",
+    "static/css/main.52ff09bd.chunk.css",
+    "static/js/main.04cb362a.chunk.js"
   ]
 }
