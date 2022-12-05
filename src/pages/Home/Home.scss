@@ -3,12 +3,53 @@
 .Home {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   width: 100%;
-  // background: linear-gradient(#12171d, #121c27);
+  height: 572px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #12171D;
+  background-image: url("../../img/any/home_mobile.png");
 
   @media (min-width: $desktop) {
     flex-direction: row;
-    height: 85px;
+    justify-content: flex-end;
+    padding-right: 111px;
+    background-image: url("../../img/any/home_desktop.png");
+    background-position: left;
+    height: 700px;
   }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+
+    @media (min-width: $desktop) {
+      align-items: flex-start;
+      width: 40%;
+    }
+  }
+
+  &__title {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+
+    @media (min-width: $desktop) {
+      font-size: 80px;
+      line-height: 96px;
+      font-weight: 400;
+      text-align: left;
+      margin-bottom: 50px;
+    }
+  }
+
+  // &__button {
+
+  // }
 }

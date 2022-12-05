@@ -96,6 +96,14 @@
     @media (min-width: $desktop) {
       display: block;
     }
+
+    &:hover {
+      background-image: url("../../img/icons/telegram_big_grey.svg");
+    }
+
+    &:active {
+      background-image: url("../../img/icons/telegram_big_light_grey.svg");
+    }
   }
 
   &--menu {

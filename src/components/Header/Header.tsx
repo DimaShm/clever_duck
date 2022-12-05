@@ -1,8 +1,13 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { MainPageNav } from '../MainPageNav/MainPageNav';
 import './Header.scss';
 
-export const Header = () => {
+type Props = {
+  setHeaderIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
+};
+
+export const Header: React.FC<Props> = ({ setHeaderIsVisible }) => {
   return (
     <div className="Header">
       <Link to="/">
@@ -17,9 +22,16 @@ export const Header = () => {
       </div>
       
       <div className="Header__contacts">
-        <div className="icon icon--telegram_big" />
+        <a href="https://telegram.com" target="_blank" rel="noreferrer">
+          <div className="icon icon--telegram_big" />
+        </a>
         <div className="icon icon--phone" />
-        <div className="icon icon--menu" />
+        <Link 
+          to="/mobileMenu" 
+          onClick={() => {setHeaderIsVisible(false)}}
+        >
+          <div className="icon icon--menu" />
+        </Link>
       </div>
     </div>
   );

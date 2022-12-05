@@ -1,6 +1,9 @@
-import { Navigate, Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
+import { useEffect } from 'react';
+import { Navigate, Route, Routes, useNavigate } from 'react-router-dom';
 import { Benefits } from '../../pages/Benefits/Benefits';
 import { Home } from '../../pages/Home/Home';
+import { MobileMenu } from '../../pages/MobileMenu/MobileMenu';
 import { Reviews } from '../../pages/Reviews/Reviews';
 import { Tariffs } from '../../pages/Tariffs/Tariffs';
 import { Team } from '../../pages/Team/Team';
@@ -9,10 +12,19 @@ import { Header } from '../Header/Header';
 import './App.scss';
 
 const App = () => {
+  const navigate = useNavigate();
+  const [headerIsVisible, setHeaderIsVisible] = useState(true);
+
+  useEffect(() => {
+    navigate('/');
+  }, []);
+
   return (
     <div className="App">
-      <Header />
-
+      {headerIsVisible &&  
+        <Header setHeaderIsVisible={setHeaderIsVisible} />
+      }
+     
       <main className="App">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -22,10 +34,15 @@ const App = () => {
           <Route path="/tariffs" element={<Tariffs />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/mobileMenu" element={
+            <MobileMenu setHeaderIsVisible={setHeaderIsVisible} />}
+          />
         </Routes>
       </main>
 
-      <Footer />
+      {headerIsVisible &&  
+        <Footer />
+      }
     </div>
   );
 };
