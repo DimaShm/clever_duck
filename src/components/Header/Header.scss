@@ -16,8 +16,15 @@
     padding: 0 4% 0 8%;
   }
 
-  &__menu {
+  &__logo {
+    margin-bottom: 4px;
 
+    @media (min-width: $desktop) {
+      margin: 0 70px 6px 0;
+    }
+  }
+
+  &__menu {
     @media (min-width: $desktop) {
       width: 54%;
     }

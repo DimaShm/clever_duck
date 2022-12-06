@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Phones } from '../../pages/Phones/Phones';
+import { PopupMenu } from '../../pages/PopupMenu/PopupMenu';
 import { MainPageNav } from '../MainPageNav/MainPageNav';
 import './Header.scss';
 
@@ -12,10 +12,15 @@ type Props = {
 export const Header: React.FC<Props> = ({ setHeaderIsVisible }) => {
   const [phonesIsVisible, setPhonesIsVisible] = useState(false);
 
+  const handlerPhoneButtonClick = () => {
+    setPhonesIsVisible(state => !state);
+    setTimeout(() => setPhonesIsVisible(false), 5000)
+  };
+
   return (
     <div className="Header">
       <Link to="/">
-        <div className="logo">
+        <div className="logo Header__logo">
           <div className="logo__img logo__img--header" />
           <span className="logo__title logo__title--header">CLEVER DUCK</span>
         </div>
@@ -39,9 +44,7 @@ export const Header: React.FC<Props> = ({ setHeaderIsVisible }) => {
 
         <button 
           className="icon icon--phone Header__phone_button"
-          onClick={() => {
-            setPhonesIsVisible(state => !state)
-          }}
+          onClick={handlerPhoneButtonClick}
         />
 
         <Link 
@@ -53,7 +56,7 @@ export const Header: React.FC<Props> = ({ setHeaderIsVisible }) => {
       </div>
 
       {phonesIsVisible &&
-        <Phones setPhonesIsVisible={setPhonesIsVisible}/>
+        <PopupMenu setPhonesIsVisible={setPhonesIsVisible}/>
       }
     </div>
   );

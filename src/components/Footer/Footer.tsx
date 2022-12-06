@@ -21,9 +21,24 @@ export const Footer: React.FC<Props> = ({ setHeaderIsVisible }) => {
           Здоров’я вашого <br /> вихованця в ваших руках
         </p>
         <div className="Footer__socials">
-          <div className="icon icon--instagram_white"/>
-          <div className="icon icon--facebook_white"/>
-          <div className="icon icon--telegram_white"/>
+          <a 
+            href="https://www.instagram.com"
+            target="_blank"
+            className="icon icon--instagram_white"
+            rel="noreferrer"
+          />
+          <a 
+            href="https://www.facebook.com"
+            target="_blank"
+            className="icon icon--facebook_white"
+            rel="noreferrer"
+          />
+          <a 
+            href="https://telegram.com" 
+            target="_blank"
+            className="icon icon--telegram_white"
+            rel="noreferrer"
+          />
         </div>
       </div>
       <div className="Footer__block">
