@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/clever_duck/static/css/main.f7288b20.chunk.css",
-    "main.js": "/clever_duck/static/js/main.2321d9e1.chunk.js",
-    "main.js.map": "/clever_duck/static/js/main.2321d9e1.chunk.js.map",
+    "main.css": "/clever_duck/static/css/main.382bf3f0.chunk.css",
+    "main.js": "/clever_duck/static/js/main.4e361fe5.chunk.js",
+    "main.js.map": "/clever_duck/static/js/main.4e361fe5.chunk.js.map",
     "runtime-main.js": "/clever_duck/static/js/runtime-main.591ebd85.js",
     "runtime-main.js.map": "/clever_duck/static/js/runtime-main.591ebd85.js.map",
     "static/js/2.7a26482b.chunk.js": "/clever_duck/static/js/2.7a26482b.chunk.js",
     "static/js/2.7a26482b.chunk.js.map": "/clever_duck/static/js/2.7a26482b.chunk.js.map",
     "index.html": "/clever_duck/index.html",
-    "static/css/main.f7288b20.chunk.css.map": "/clever_duck/static/css/main.f7288b20.chunk.css.map",
+    "static/css/main.382bf3f0.chunk.css.map": "/clever_duck/static/css/main.382bf3f0.chunk.css.map",
     "static/js/2.7a26482b.chunk.js.LICENSE.txt": "/clever_duck/static/js/2.7a26482b.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/clever_duck/static/media/telegram_white.2df3b8e4.svg",
     "static/media/Benefits.scss": "/clever_duck/static/media/benefits_big_3.0eb1edea.png",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.591ebd85.js",
     "static/js/2.7a26482b.chunk.js",
-    "static/css/main.f7288b20.chunk.css",
-    "static/js/main.2321d9e1.chunk.js"
+    "static/css/main.382bf3f0.chunk.css",
+    "static/js/main.4e361fe5.chunk.js"
   ]
 }
