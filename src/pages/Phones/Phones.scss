@@ -1,0 +1,21 @@
+@import "../../styles/utils/variables.scss";
+
+.Phones {
+  position: absolute;
+  right: 10px;
+  top: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 150px;
+  background-color: aqua;
+
+  @media (min-width: $desktop) {
+    top: 85px;
+    width: 150px;
+  }
+
+  &__number {
+    padding: 10px;
+  }
+}

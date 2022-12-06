@@ -1,6 +1,7 @@
 @import "../../styles/utils/variables.scss";
 
 .icon {
+  display: block;
   width: 50px;
   height: 50px;
   background-position: center;
@@ -140,6 +141,20 @@
 
     &:active {
       background-image: url("../../img/icons/phone_light_grey.svg");
+    }
+  }
+
+  &--cross {
+    width: 32px;
+    height: 32px;
+    background-image: url("../../img/icons/cross.svg");
+
+    &:hover {
+      background-image: url("../../img/icons/cross_grey.svg");
+    }
+
+    &:active {
+      background-image: url("../../img/icons/cross_light_grey.svg");
     }
   }
 }

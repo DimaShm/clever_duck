@@ -1,8 +1,13 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { MainPageNav } from '../MainPageNav/MainPageNav';
 import './Footer.scss';
 
-export const Footer = () => {
+type Props = {
+  setHeaderIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
+};
+
+export const Footer: React.FC<Props> = ({ setHeaderIsVisible }) => {
   return(
     <div className="Footer">
       <div className="Footer__block">
@@ -23,30 +28,45 @@ export const Footer = () => {
       </div>
       <div className="Footer__block">
         <div className="Footer__menu">
-          <MainPageNav />
+          <MainPageNav 
+            mobileStyle={''}
+            setHeaderIsVisible={setHeaderIsVisible}
+          />
         </div>
       </div>
       <div className="Footer__block">
         <ul className="menu menu--contacts">
           <li className="menu__item">
-            <a href="*" className="small_text small_text--grey menu__link">
+            <a 
+              href="tel:+380654220173"
+              className="small_text small_text--light_grey menu__link"
+            >
               +380654220173
             </a>
           </li>
           <li className="menu__item">
-            <a href="*" className="small_text small_text--grey menu__link">
+            <a 
+              href="tel:+380966550112"
+              className="small_text small_text--light_grey menu__link"
+            >
               +380966550112
             </a>
           </li>
           <li className="menu__item">
-            <a href="*" className="small_text small_text--grey menu__link">
+            <a 
+              href="mailto:Petcare@hello.com"
+              className="small_text small_text--light_grey menu__link"
+            >
               cleverduck@gmail.com
             </a>
           </li>
           <li className="menu__item">
-            <a href="*" className="small_text small_text--grey menu__link">
-              політика конфіденційності
-            </a>
+            <Link 
+              to="/privacy"
+              className="small_text small_text--light_grey menu__link"
+            >
+               політика конфіденційності
+            </Link>
           </li>
         </ul>
       </div>

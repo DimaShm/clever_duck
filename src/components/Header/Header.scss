@@ -1,6 +1,7 @@
 @import "../../styles/utils/variables.scss";
 
 .Header {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -8,17 +9,17 @@
   width: 100%;
   height: 68px;
   padding: 0 20px;
-  background-color: #12171D;
+  background-color: $darkBlue;
 
   @media (min-width: $desktop) {
     height: 85px;
-    padding: 0 8%;
+    padding: 0 4% 0 8%;
   }
 
   &__menu {
 
     @media (min-width: $desktop) {
-      width: 60%;
+      width: 54%;
     }
   }
 
@@ -35,10 +36,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 30%;
+    width: 35%;
 
     @media (min-width: $desktop) {
-      max-width: 12%;
+      max-width: 16%;
+      margin-left: 20px;
     }
+  }
+
+  &__phone_button {
+    background: transparent;
+    border: 0;
   }
 }

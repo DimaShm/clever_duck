@@ -8,16 +8,16 @@
   height: 572px;
   background-repeat: no-repeat;
   background-position: bottom;
-  background-color: #12171D;
+  background-color: $darkBlue;
   background-image: url("../../img/any/home_mobile.png");
 
   @media (min-width: $desktop) {
     flex-direction: row;
     justify-content: flex-end;
-    padding-right: 111px;
+    padding-right: 7%;
     background-image: url("../../img/any/home_desktop.png");
-    background-position: left;
-    height: 700px;
+    background-position-x: left;
+    height: 860px;
   }
 
   &__content {
@@ -49,7 +49,56 @@
     }
   }
 
-  // &__button {
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 60px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    background-color: $darkBlue;
+    cursor: pointer;
+  
+    @media (min-width: $desktop) {
+      width: 387px;
+      height: 82px;
+    }
+  
+    &:hover {
+      background-color: #0e1216;
+    }
+  
+    &:active {
+      background-color: #0f141a;
+    }
+  
+    &:disabled {
+      background-color: #252525;
+    }
+  }
 
-  // }
+  &__button_title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    color: $lightGrey;
+
+    @media (min-width: $desktop) {
+      font-size: 28px;
+      line-height: 34px;
+    }
+
+    &:hover {
+      color: #fff;
+    }
+
+    &:active {
+     font-weight: 800;
+    }
+
+    &:disabled {
+      color: $darkGrey;
+    }
+  }
 }
