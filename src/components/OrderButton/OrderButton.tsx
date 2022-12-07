@@ -2,18 +2,21 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import './OrderButton.scss';
 
-export const OrderButton: React.FC = () => {
+type Props = {
+  color: string;
+};
+
+export const OrderButton: React.FC<Props> = ({ color }) => {
   const navigate = useNavigate();
+
   return (
     <button 
-      className="OrderButton"
+      className={`OrderButton OrderButton${color}`}
       onClick={() => {
-        navigate('/order');
+        navigate('/');
       }}
     >
-       <span className="OrderButton__title">
-         Зробити замовлення
-       </span>
+       Замовити
     </button>
   );
 };

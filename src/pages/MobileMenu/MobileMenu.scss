@@ -2,7 +2,7 @@
 
 .MobileMenu {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   border: 1px solid $darkBlue;
 
   &__header {
@@ -28,7 +28,6 @@
     justify-content: flex-start;
     align-items: center;
     padding: 20px;
-    height: calc(100% - 68px);
     background-color: $darkBlue;
   }
 }

@@ -14,7 +14,8 @@ export const Header: React.FC<Props> = ({ setHeaderIsVisible }) => {
 
   const handlerPhoneButtonClick = () => {
     setPhonesIsVisible(state => !state);
-    setTimeout(() => setPhonesIsVisible(false), 5000)
+    const timerId = setTimeout(() => setPhonesIsVisible(false), 5000);
+    clearTimeout(timerId);
   };
 
   return (
@@ -45,7 +46,12 @@ export const Header: React.FC<Props> = ({ setHeaderIsVisible }) => {
         <button 
           className="icon icon--phone Header__phone_button"
           onClick={handlerPhoneButtonClick}
-        />
+        >
+          {phonesIsVisible &&
+           <PopupMenu setPhonesIsVisible={setPhonesIsVisible}/>
+          }
+        </button>  
+
 
         <Link 
           to="/mobileMenu" 
@@ -54,10 +60,6 @@ export const Header: React.FC<Props> = ({ setHeaderIsVisible }) => {
           <div className="icon icon--menu" />
         </Link>
       </div>
-
-      {phonesIsVisible &&
-        <PopupMenu setPhonesIsVisible={setPhonesIsVisible}/>
-      }
     </div>
   );
 };

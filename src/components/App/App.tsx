@@ -4,7 +4,6 @@ import { Navigate, Route, Routes, useNavigate } from 'react-router-dom';
 import { Benefits } from '../../pages/Benefits/Benefits';
 import { Home } from '../../pages/Home/Home';
 import { MobileMenu } from '../../pages/MobileMenu/MobileMenu';
-import { Order } from '../../pages/Order/Order';
 import { PrivacyPolicy } from '../../pages/PrivacyPolicy/PrivacyPolicy';
 import { Reviews } from '../../pages/Reviews/Reviews';
 import { Tariffs } from '../../pages/Tariffs/Tariffs';
@@ -36,7 +35,6 @@ const App = () => {
           <Route path="/tariffs" element={<Tariffs />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/team" element={<Team />} />
-          <Route path="/order" element={<Order />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/mobileMenu" element={
             <MobileMenu setHeaderIsVisible={setHeaderIsVisible} />}
