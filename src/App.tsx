@@ -1,15 +1,15 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { Navigate, Route, Routes, useNavigate } from 'react-router-dom';
-import { Benefits } from '../../pages/Benefits/Benefits';
-import { Home } from '../../pages/Home/Home';
-import { MobileMenu } from '../../pages/MobileMenu/MobileMenu';
-import { PrivacyPolicy } from '../../pages/PrivacyPolicy/PrivacyPolicy';
-import { Reviews } from '../../pages/Reviews/Reviews';
-import { Tariffs } from '../../pages/Tariffs/Tariffs';
-import { Team } from '../../pages/Team/Team';
-import { Footer } from '../Footer/Footer';
-import { Header } from '../Header/Header';
+import { Benefits } from './pages/Benefits/Benefits';
+import { Home } from './pages/Home/Home';
+import { MobileMenu } from './pages/MobileMenu/MobileMenu';
+import { PrivacyPolicy } from './pages/PrivacyPolicy/PrivacyPolicy';
+import { Reviews } from './pages/Reviews/Reviews';
+import { Tariffs } from './pages/Tariffs/Tariffs';
+import { Team } from './pages/Team/Team';
+import { Footer } from './components/Footer/Footer';
+import { Header } from './components/Header/Header';
 import './App.scss';
 
 const App = () => {

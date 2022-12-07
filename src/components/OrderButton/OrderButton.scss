@@ -1,6 +1,7 @@
 @import "../../styles/utils/variables.scss";
 
 .OrderButton {
+  $pageWidth: 1440px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -12,9 +13,19 @@
   line-height: 34px;
   font-weight: 500;
   border: 0;
+  cursor: pointer;
+  transition: $transition;
 
   @media (min-width: $desktop) {
-    width: 250px;
+    width: 160px;
+  }
+
+  @media (min-width: 1000px) {
+    width: 200px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 260px;
   }
 
   &--pink {
