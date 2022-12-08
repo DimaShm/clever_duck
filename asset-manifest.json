@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/clever_duck/static/css/main.b1dffda2.chunk.css",
-    "main.js": "/clever_duck/static/js/main.64d6f137.chunk.js",
-    "main.js.map": "/clever_duck/static/js/main.64d6f137.chunk.js.map",
-    "runtime-main.js": "/clever_duck/static/js/runtime-main.9042484c.js",
-    "runtime-main.js.map": "/clever_duck/static/js/runtime-main.9042484c.js.map",
+    "main.css": "/clever_duck/static/css/main.d7fd1116.chunk.css",
+    "main.js": "/clever_duck/static/js/main.ee856338.chunk.js",
+    "main.js.map": "/clever_duck/static/js/main.ee856338.chunk.js.map",
+    "runtime-main.js": "/clever_duck/static/js/runtime-main.7ae93712.js",
+    "runtime-main.js.map": "/clever_duck/static/js/runtime-main.7ae93712.js.map",
     "static/js/2.5bccec0d.chunk.js": "/clever_duck/static/js/2.5bccec0d.chunk.js",
     "static/js/2.5bccec0d.chunk.js.map": "/clever_duck/static/js/2.5bccec0d.chunk.js.map",
-    "static/css/3.52159799.chunk.css": "/clever_duck/static/css/3.52159799.chunk.css",
+    "static/css/3.174d5bdb.chunk.css": "/clever_duck/static/css/3.174d5bdb.chunk.css",
     "static/js/3.7cfba8f5.chunk.js": "/clever_duck/static/js/3.7cfba8f5.chunk.js",
     "static/js/3.7cfba8f5.chunk.js.map": "/clever_duck/static/js/3.7cfba8f5.chunk.js.map",
     "index.html": "/clever_duck/index.html",
-    "static/css/3.52159799.chunk.css.map": "/clever_duck/static/css/3.52159799.chunk.css.map",
-    "static/css/main.b1dffda2.chunk.css.map": "/clever_duck/static/css/main.b1dffda2.chunk.css.map",
+    "static/css/3.174d5bdb.chunk.css.map": "/clever_duck/static/css/3.174d5bdb.chunk.css.map",
+    "static/css/main.d7fd1116.chunk.css.map": "/clever_duck/static/css/main.d7fd1116.chunk.css.map",
     "static/js/2.5bccec0d.chunk.js.LICENSE.txt": "/clever_duck/static/js/2.5bccec0d.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/clever_duck/static/media/telegram_white.2df3b8e4.svg",
     "static/media/Benefits.scss": "/clever_duck/static/media/benefits_big_3.0eb1edea.png",
     "static/media/Footer.scss": "/clever_duck/static/media/footer_bgr.913fc5a5.svg",
     "static/media/Home.scss": "/clever_duck/static/media/home_mobile.1f1c0bd3.png",
-    "static/media/Team.scss": "/clever_duck/static/media/person_3.b71c9175.png"
+    "static/media/Team.scss": "/clever_duck/static/media/person_3.b71c9175.png",
+    "static/media/Reviews.scss": "/clever_duck/static/media/rewiew_3.aeae922d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9042484c.js",
+    "static/js/runtime-main.7ae93712.js",
     "static/js/2.5bccec0d.chunk.js",
-    "static/css/main.b1dffda2.chunk.css",
-    "static/js/main.64d6f137.chunk.js"
+    "static/css/main.d7fd1116.chunk.css",
+    "static/js/main.ee856338.chunk.js"
   ]
 }
