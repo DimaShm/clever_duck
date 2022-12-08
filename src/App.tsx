@@ -1,7 +1,8 @@
+import React, { Suspense } from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { Navigate, Route, Routes, useNavigate } from 'react-router-dom';
-import { Benefits } from './pages/Benefits/Benefits';
+// import { Benefits } from './pages/Benefits/Benefits';
 import { Home } from './pages/Home/Home';
 import { MobileMenu } from './pages/MobileMenu/MobileMenu';
 import { PrivacyPolicy } from './pages/PrivacyPolicy/PrivacyPolicy';
@@ -11,6 +12,8 @@ import { Team } from './pages/Team/Team';
 import { Footer } from './components/Footer/Footer';
 import { Header } from './components/Header/Header';
 import './App.scss';
+
+const Benefits = React.lazy(() => import('./pages/Benefits/Benefits'));
 
 const App = () => {
   const navigate = useNavigate();
@@ -31,7 +34,11 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Navigate to="/" />} />
           <Route path="*" element={<Navigate to="/" />} />
-          <Route path="/benefits" element={<Benefits />} />
+          <Route path="/benefits" element={
+             <Suspense fallback={<div />}>
+                <Benefits />
+             </Suspense>
+          } />
           <Route path="/tariffs" element={<Tariffs />} />
           <Route path="/reviews" element={<Reviews />} />
           <Route path="/team" element={<Team />} />

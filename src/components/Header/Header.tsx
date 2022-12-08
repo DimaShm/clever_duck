@@ -21,7 +21,11 @@ export const Header: React.FC<Props> = ({ setHeaderIsVisible }) => {
   return (
     <div className="Header">
       <Link to="/">
-        <div className="logo Header__logo">
+        <div 
+          aria-label="logo"
+          role="button"
+          className="logo Header__logo"
+        >
           <div className="logo__img logo__img--header" />
           <span className="logo__title logo__title--header">CLEVER DUCK</span>
         </div>
@@ -35,15 +39,23 @@ export const Header: React.FC<Props> = ({ setHeaderIsVisible }) => {
       </div>
       
       <div className="Header__contacts">
-        <a 
+        <a
+          aria-label="telegram" 
+          role="button"
           href="https://telegram.com" 
           target="_blank" 
           rel="noreferrer"
         >
-          <div className="icon icon--telegram_big" />
+          <div
+            aria-label="telegram"
+            role="button"
+            className="icon icon--telegram_big" 
+          />
         </a>
 
         <button 
+          aria-label="phone"
+          type="button"
           className="icon icon--phone Header__phone_button"
           onClick={handlerPhoneButtonClick}
         >
@@ -57,7 +69,11 @@ export const Header: React.FC<Props> = ({ setHeaderIsVisible }) => {
           to="/mobileMenu" 
           onClick={() => {setHeaderIsVisible(false)}}
         >
-          <div className="icon icon--menu" />
+          <div 
+            aria-label="menu"
+            role="button"
+            className="icon icon--menu"
+           />
         </Link>
       </div>
     </div>

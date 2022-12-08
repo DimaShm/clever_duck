@@ -1,7 +1,7 @@
 import './Benefits.scss';
 import { LinkFda } from '../../components/LinkFda/LinkFda';
 
-export const Benefits = () => {
+const Benefits = () => {
   window.scrollTo({
     top: 0, left: 0, behavior: 'smooth',
   })
@@ -13,7 +13,10 @@ export const Benefits = () => {
           Ми дотримуємося вказівок FDA
         </h1> 
         <br />
-        <div className="Benefits__photo Benefits__photo--1" />
+        <div
+          aria-label="dogs photo" 
+          className="Benefits__photo Benefits__photo--1" 
+        />
         <p className="text Benefits__text Benefits__text--about">
           На жаль, дослідження показують, що більшість власників собак не дотримуються <LinkFda /> щодо кормів для домашніх тварин через брак часу, зусиль чи обізнаності. Їх впровадження можуть значно зменшити випадки бактеріальних захворювань та зараження собак.
           <br /> <br />
@@ -26,7 +29,8 @@ export const Benefits = () => {
           Індивідуальний підхід
         </h1> 
         <br />
-        <div 
+        <div
+          aria-label="dogs photo" 
           className="Benefits__photo Benefits__photo--2" 
         />
         <p className="text Benefits__text Benefits__text--care">
@@ -42,7 +46,8 @@ export const Benefits = () => {
            Додаткові приємності
         </h1> 
         <br />
-        <div 
+        <div
+          aria-label="cats photo"
           className="Benefits__photo Benefits__photo--3" 
         />
         <p className="text Benefits__text Benefits__text--bonus">
@@ -55,3 +60,6 @@ export const Benefits = () => {
     </div>
   );
 };
+
+export default Benefits;
+

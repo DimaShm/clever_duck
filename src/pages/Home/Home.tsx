@@ -10,17 +10,20 @@ export const Home: React.FC = () => {
   })
 
   return (
-    <div className="Home">
+    <div 
+      aria-label="dog photo"
+      className="Home"
+    >
       <div className="Home__content">
         <span className="Home__title">
            Доставка їжі для тварин
         </span>
 
-        <button 
+        <button
+          aria-label="main button"
+          type="button"
           className="Home__button"
-          onClick={() => {
-          navigate('/tariffs');
-        }}
+          onClick={() => navigate('/tariffs')}
         >
           <span className="Home__button_title">
             Зробити замовлення

@@ -12,7 +12,11 @@ export const Footer: React.FC<Props> = ({ setHeaderIsVisible }) => {
     <div className="Footer">
       <div className="Footer__block">
         <Link to="/">
-          <div className="logo Footer__logo">
+          <div 
+            aria-label="logo"
+            role="button"
+            className="logo Footer__logo"
+          >
             <div className="logo__img logo__img--footer" />
             <span className="logo__title">CLEVER DUCK</span>
           </div>
@@ -53,6 +57,7 @@ export const Footer: React.FC<Props> = ({ setHeaderIsVisible }) => {
         <ul className="menu menu--contacts">
           <li className="menu__item">
             <a 
+              aria-label="telephone number"
               href="tel:+380654220173"
               className="small_text small_text--light_grey menu__link"
             >
@@ -60,7 +65,8 @@ export const Footer: React.FC<Props> = ({ setHeaderIsVisible }) => {
             </a>
           </li>
           <li className="menu__item">
-            <a 
+            <a
+              aria-label="telephone number" 
               href="tel:+380966550112"
               className="small_text small_text--light_grey menu__link"
             >
@@ -69,6 +75,7 @@ export const Footer: React.FC<Props> = ({ setHeaderIsVisible }) => {
           </li>
           <li className="menu__item">
             <a 
+              aria-label="email"
               href="mailto:Petcare@hello.com"
               className="small_text small_text--light_grey menu__link"
             >
@@ -76,7 +83,8 @@ export const Footer: React.FC<Props> = ({ setHeaderIsVisible }) => {
             </a>
           </li>
           <li className="menu__item">
-            <Link 
+            <Link
+              aria-label="privacy policy"
               to="/privacy"
               className="small_text small_text--light_grey menu__link"
             >

@@ -12,16 +12,20 @@ export const OrderButton: React.FC<Props> = ({ color }) => {
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
 
+  const haydlerOrderButtonClick = () => {
+    setIsLoading(true);
+    setTimeout(() => {
+      setIsLoading(false);
+      navigate('/');
+    }, 1000);  
+  }
+
   return (
-    <button 
+    <button
+      aria-label="order"
+      type="button"
       className={`OrderButton OrderButton${color}`}
-      onClick={() => {
-        setIsLoading(true);
-        setTimeout(() => {
-          setIsLoading(false);
-          navigate('/');
-        }, 1000);
-      }}
+      onClick={haydlerOrderButtonClick}
     >
       {isLoading 
         ? <Loader/>

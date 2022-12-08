@@ -7,7 +7,8 @@ type Props = {
 
 export const PopupMenu: React.FC<Props> = ({ setPhonesIsVisible }) => {
   return (
-    <div 
+    <div
+      aria-label="popup menu"
       className="PopupMenu"
       onMouseLeave={() => {setPhonesIsVisible(false)}}
     >
@@ -16,6 +17,7 @@ export const PopupMenu: React.FC<Props> = ({ setPhonesIsVisible }) => {
       <div className="PopupMenu__content">
         <span className="PopupMenu__number">
           <a 
+            aria-label="telephone number"
             href="tel:+380654220173"
             onClick={() => {setPhonesIsVisible(false)}}
             >
@@ -25,6 +27,7 @@ export const PopupMenu: React.FC<Props> = ({ setPhonesIsVisible }) => {
 
         <span className="PopupMenu__number">
           <a 
+            aria-label="telephone number"
             href="tel:+380966550112"
             onClick={() => {setPhonesIsVisible(false)}}
           >

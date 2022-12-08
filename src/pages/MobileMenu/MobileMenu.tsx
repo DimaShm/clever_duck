@@ -14,6 +14,8 @@ export const MobileMenu: React.FC<Props> = ({ setHeaderIsVisible }) => {
         <span className="MobileMenu__title">Меню</span>
         <div>
           <Link
+            aria-label="cross button"
+            role="button"
             className="icon icon--cross"
             to="/" 
             onClick={() => {
