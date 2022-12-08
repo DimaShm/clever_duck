@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/clever_duck/static/css/main.cfb58df7.chunk.css",
-    "main.js": "/clever_duck/static/js/main.dc641593.chunk.js",
-    "main.js.map": "/clever_duck/static/js/main.dc641593.chunk.js.map",
+    "main.js": "/clever_duck/static/js/main.c63842a8.chunk.js",
+    "main.js.map": "/clever_duck/static/js/main.c63842a8.chunk.js.map",
     "runtime-main.js": "/clever_duck/static/js/runtime-main.591ebd85.js",
     "runtime-main.js.map": "/clever_duck/static/js/runtime-main.591ebd85.js.map",
     "static/js/2.5bccec0d.chunk.js": "/clever_duck/static/js/2.5bccec0d.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.591ebd85.js",
     "static/js/2.5bccec0d.chunk.js",
     "static/css/main.cfb58df7.chunk.css",
-    "static/js/main.dc641593.chunk.js"
+    "static/js/main.c63842a8.chunk.js"
   ]
 }
