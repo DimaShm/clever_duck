@@ -1,7 +1,6 @@
 @import "../../styles/utils/variables.scss";
 
 .OrderButton {
-  $pageWidth: 1440px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -32,12 +31,14 @@
     background-color: #ea1e80;
     color: #fff;
 
+
     &:hover {
-      background-color: #d91774;
+      background-color: #f1127d;
+      font-weight: 600;
     }
 
     &:active {
-      background-color: #e51B7c;
+      background-color: #ff1586;
     }
 
     &:disabled {
@@ -46,11 +47,12 @@
   }
 
   &--grey {
-    background-color: #f5f5f5;
+    background-color: #fff;
     color: #000;
 
     &:hover {
-      background-color: $lightGrey;
+      background-color: #ededed;
+      font-weight: 600;
     }
 
     &:active {
@@ -58,6 +60,7 @@
     }
 
     &:disabled {
+      color: #252525;
       background-color: $darkGrey;
     }
   }

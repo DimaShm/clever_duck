@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { PopupMenu } from '../../pages/PopupMenu/PopupMenu';
+import { PopupMenu } from '../PopupMenu/PopupMenu';
 import { MainPageNav } from '../MainPageNav/MainPageNav';
 import './Header.scss';
 

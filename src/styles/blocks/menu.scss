@@ -34,6 +34,7 @@
   }  
   
   &__link {
+    color: #eee;
     transition: $transition;
 
     &--mobile {
@@ -44,7 +45,6 @@
     
     &--active {
       color: #fff;
-      font-weight: 800;
     }
 
     &:hover {
@@ -52,7 +52,8 @@
     }
 
     &:active {
-      font-weight: 800;
+      color: #fff;
+      font-weight: 500;
     }
   }
 }

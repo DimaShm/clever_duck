@@ -5,10 +5,11 @@ import { Loader } from '../Loader/Loader';
 import './OrderButton.scss';
 
 type Props = {
-  color: string;
+  buttonColor: string;
+  loaderColor: string;
 };
 
-export const OrderButton: React.FC<Props> = ({ color }) => {
+export const OrderButton: React.FC<Props> = ({ buttonColor, loaderColor }) => {
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
 
@@ -24,11 +25,11 @@ export const OrderButton: React.FC<Props> = ({ color }) => {
     <button
       aria-label="order"
       type="button"
-      className={`OrderButton OrderButton${color}`}
+      className={`OrderButton OrderButton${buttonColor}`}
       onClick={haydlerOrderButtonClick}
     >
       {isLoading 
-        ? <Loader/>
+        ? <Loader color={loaderColor}/>
         :  <span>Замовити</span> 
       }
 

@@ -26,7 +26,6 @@ export const MainPageNav: React.FC<Props> = ({ setHeaderIsVisible, mobileStyle }
             onClick={() => setHeaderIsVisible(true)} 
             className={({ isActive }) => classNames(
               'small_text', 
-              'small_text--light_grey', 
               'menu__link', 
               `menu__link${mobileStyle}`,
               {'menu__link--active': isActive}

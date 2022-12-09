@@ -25,7 +25,7 @@ export const Home: React.FC = () => {
           className="Home__button"
           onClick={() => navigate('/tariffs')}
         >
-          <span className="Home__button_title">
+          <span>
             Зробити замовлення
          </span>
        </button>

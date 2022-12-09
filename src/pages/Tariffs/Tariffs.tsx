@@ -8,7 +8,7 @@ export const Tariffs = () => {
 
   return (
     <div className="Tariffs">
-      <h1 className="title Tariffs__title">Таріфи</h1>
+      <h1 className="title Tariffs__title">Тарифи</h1>
 
       <div className="Tariffs__card">
         <div className="Tariffs__item">
@@ -42,7 +42,10 @@ export const Tariffs = () => {
         </div>
 
         <div className="Tariffs__item Tariffs__item--button">
-          <OrderButton color="--pink"/>
+          <OrderButton 
+            buttonColor="--pink"
+            loaderColor="--grey"
+          />
         </div>
       </div>
 
@@ -80,7 +83,10 @@ export const Tariffs = () => {
         </div>
 
         <div className="Tariffs__item Tariffs__item--button">
-          <OrderButton color="--pink"/>
+          <OrderButton 
+            buttonColor="--pink"
+            loaderColor="--grey"
+          />
         </div>
       </div>
 
@@ -120,7 +126,10 @@ export const Tariffs = () => {
         </div>
 
         <div className="Tariffs__item Tariffs__item--button">
-          <OrderButton color="--grey"/>
+          <OrderButton 
+            buttonColor="--grey"
+            loaderColor="--pink"
+          />
         </div>
       </div>
 
@@ -158,7 +167,10 @@ export const Tariffs = () => {
         </div>
 
         <div className="Tariffs__item Tariffs__item--button">
-          <OrderButton color="--pink"/>
+          <OrderButton 
+            buttonColor="--pink"
+            loaderColor="--grey"
+          />
         </div>
       </div>
     </div>
