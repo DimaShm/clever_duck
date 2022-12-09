@@ -31,9 +31,9 @@ export const Header: React.FC<Props> = ({ setHeaderIsVisible }) => {
         </div>
      </Link>
       
-      <div className="Header__menu">
+      <div className="Header__menu" data-cy="header">
         <MainPageNav 
-          mobileStyle={''}
+          style={''}
           setHeaderIsVisible={setHeaderIsVisible}
         />
       </div>
@@ -63,7 +63,6 @@ export const Header: React.FC<Props> = ({ setHeaderIsVisible }) => {
            <PopupMenu setPhonesIsVisible={setPhonesIsVisible}/>
           }
         </button>  
-
 
         <Link 
           to="/mobileMenu" 

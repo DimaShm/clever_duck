@@ -26,7 +26,7 @@ export const MobileMenu: React.FC<Props> = ({ setHeaderIsVisible }) => {
       </div>
       <div className="MobileMenu__content">
         <MainPageNav 
-          mobileStyle={'--mobile'}
+          style={'--mobile'}
           setHeaderIsVisible={setHeaderIsVisible} 
         />
       </div>

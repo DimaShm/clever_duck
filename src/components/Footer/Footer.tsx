@@ -48,7 +48,7 @@ export const Footer: React.FC<Props> = ({ setHeaderIsVisible }) => {
       <div className="Footer__block">
         <div className="Footer__menu">
           <MainPageNav 
-            mobileStyle={''}
+            style={''}
             setHeaderIsVisible={setHeaderIsVisible}
           />
         </div>

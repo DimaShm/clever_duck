@@ -11,7 +11,7 @@
 
   &:active > * {
     color: #fff;
-    font-weight: 800;
+    font-weight: 900;
   }
 
   &__img {
@@ -36,7 +36,7 @@
   &__title {
     font-size: 16px;
     line-height: 19px;
-    font-weight: bold;
+    font-weight: 800;
     color: #fff;
     transition: $transition;
 
