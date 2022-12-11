@@ -35,39 +35,25 @@
   
   &__link {
     color: #eee;
-    transition: $transition;
     font-weight: 400;
     padding: inherit;
 
     &--mobile {
       font-size: 34px;
       line-height: 41px;
-      font-weight: 500;
     }
 
     &:hover {
       color: #fff;
     }
-    
-    &--active {
-      position: relative;
+
+    &:active {
       font-weight: 500;
+    }
+
+    &--active {
       color: #fff;
-
-      &::after {
-        position: absolute;
-        box-sizing: border-box;
-        bottom: 0;
-        left: 0;
-        content: "";
-        width: 100%;
-        border: 1px solid;
-        border-radius: 8px;
-
-        @media (min-width: $desktop) {
-          bottom: 3px;
-        }
-      }
+      font-weight: 500;
     }
   }
 }
