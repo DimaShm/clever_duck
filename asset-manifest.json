@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/clever_duck/static/css/main.5699deda.chunk.css",
+    "main.css": "/clever_duck/static/css/main.bd59394d.chunk.css",
     "main.js": "/clever_duck/static/js/main.26e8941a.chunk.js",
     "main.js.map": "/clever_duck/static/js/main.26e8941a.chunk.js.map",
     "runtime-main.js": "/clever_duck/static/js/runtime-main.7ae93712.js",
@@ -12,7 +12,7 @@
     "static/js/3.7cfba8f5.chunk.js.map": "/clever_duck/static/js/3.7cfba8f5.chunk.js.map",
     "index.html": "/clever_duck/index.html",
     "static/css/3.174d5bdb.chunk.css.map": "/clever_duck/static/css/3.174d5bdb.chunk.css.map",
-    "static/css/main.5699deda.chunk.css.map": "/clever_duck/static/css/main.5699deda.chunk.css.map",
+    "static/css/main.bd59394d.chunk.css.map": "/clever_duck/static/css/main.bd59394d.chunk.css.map",
     "static/js/2.5bccec0d.chunk.js.LICENSE.txt": "/clever_duck/static/js/2.5bccec0d.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/clever_duck/static/media/telegram_white.2df3b8e4.svg",
     "static/media/Benefits.scss": "/clever_duck/static/media/benefits_big_3.0eb1edea.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.7ae93712.js",
     "static/js/2.5bccec0d.chunk.js",
-    "static/css/main.5699deda.chunk.css",
+    "static/css/main.bd59394d.chunk.css",
     "static/js/main.26e8941a.chunk.js"
   ]
 }
